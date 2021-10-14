@@ -6,7 +6,7 @@ fullstack bolierplate with shack.js | 基于 shack.js 的全栈模板
 ```
 +-- apis # each exported function in this folder is a backend api | 此文件夹下导出的函数都被用作后台接口
 +-- web # front end codes | 前端代码
-|     +-- index.ts | 前端代码入口
+|     +-- index.ts # entry | 前端代码入口
 +-- dist # compiled codes for production usage | 编译后用于产线的代码
 ```
 
@@ -23,4 +23,10 @@ production | 产线
 ```
 npm run build
 npm run start
+```
+
+docker-compose
+
+```
+docker-compose up
 ```
